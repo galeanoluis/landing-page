@@ -7,7 +7,7 @@
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
-    padding: 24px 18vw;
+    padding: 0 18vw;
 }
 header {
     display: flex;
@@ -64,12 +64,61 @@ header {
     width: 0;
     height: auto;
     flex-grow: 1;
+    object-fit: cover;
+}
+.information-section{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 5vh 0 10vh 0;
+}
+.information-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+.information-list {
+    display: flex;
+    gap: 16px;
+}
+.information-li {
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
 }
 
 .information-empanadas,
 .information-asado,
 .information-pizza,
 .information-milanesa {
-    height: 100px;
-    width: 100px;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 20vw 10vh 20vw;
+    gap: 8px;
+}
+.quote-quote {
+    flex: 1 1 0px;
+    font-size: 24px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+.quote-undertext {
+    flex: 1 1 0px;
+    align-self: flex-end;
+    font-weight: bold;
 }
