@@ -58,7 +58,7 @@ header {
     background-color: #3882F6;
     color:#F9FAF8;
     font-weight: bold;
-    padding: 8px 24px;
+    padding: 6px 28px;
 }
 .header-image {
     width: 0;
@@ -89,6 +89,7 @@ header {
     align-items: center;
     list-style-type: none;
     text-align: center;
+    flex-wrap: wrap;
 }
 
 .information-empanadas,
@@ -121,4 +122,52 @@ header {
     flex: 1 1 0px;
     align-self: flex-end;
     font-weight: bold;
+}
+.signup-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 18vw 10vh 18vw;
+
+}
+.signup-container {
+    flex: 1 1 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882F6;
+    display: flex;
+    color:#F9FAF8;
+    padding: 5vh 8vw 5vh 8vw;
+    border-radius: 10px;
+}
+.signup-left {
+
+}
+.signup-title {
+    
+}
+.signup-text {
+
+}
+.signup-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    background-color: #3882F6;
+    color:#F9FAF8;
+    font-weight: bold;
+    padding: 6px 28px;
+}
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color:#F9FAF8;
+    padding: 3vh 0 3vh 0;
+    font-size: smaller;
+}
+footer {
+
 }
